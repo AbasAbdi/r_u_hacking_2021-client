@@ -1,0 +1,90 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+.p {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 120px;
+}
+.c {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+.ht {
+  padding-left: 25px;
+}
+.pt {
+  padding-left: 302px;
+  padding-right: 400px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.v {
+  text-align: center;
+  font-size: 30px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.word {
+  text-align: center;
+  background-color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.flex-container {
+  display: flex;
+  height: 100%;
+  background-color: white;
+}
+.sp {
+  padding-top: 10px;
+}
+.flex-item {
+  flex: 1 0 auto;
+  flex-direction: column;
+  background: white;
+}
+.footer {
+  flex-shrink: 0;
+}
+.cd {
+  text-align: right;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #ff0000;
+}
