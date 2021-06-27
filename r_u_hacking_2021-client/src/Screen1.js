@@ -23,16 +23,16 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   cardGrid: {
-    //paddingTop: theme.spacing(3),
-    //paddingBottom: theme.spacing(8),
+    paddingTop: theme.spacing(3),
+    paddingBottom: theme.spacing(8),
   },
   card: {
-    //height: "100%",
+    height: "100%",
     display: "flex",
     flexDirection: "column",
   },
   cardMedia: {
-    // paddingTop: "100%", // 16:9
+    paddingTop: "100%", // 16:9
   },
   cardContent: {
     flexGrow: 1,
@@ -96,127 +96,19 @@ function Screen1() {
               <Grid container spacing={4} justify="center">
                 <Grid item xs={12} sm={6} md={6}>
                   <Card className={classes.card}>
-                    <CardContent className={classes.cardContent}>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        Category Name
-                      </Typography>
-                      <br />
-                      <Typography>
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC ONE.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC TWO.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        {" "}
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC THREE.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        {" "}
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC FOUR.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC FIVE.....
-                        </Button>
-                      </Typography>
-                    </CardContent>
-                    <CardActions></CardActions>
+                    <CardMedia
+                      className={classes.cardMedia}
+                      image="https://www.goodtherapy.org/dbimages/ckupload_20190109164621_Aging-geriatric-A1.jpg"
+                    />
                   </Card>
                 </Grid>
 
                 <Grid item xs={12} sm={6} md={6}>
                   <Card className={classes.card}>
-                    <CardContent className={classes.cardContent}>
-                      <Typography gutterBottom variant="h5" component="h2">
-                        Category Name
-                      </Typography>
-                      <br />
-                      <Typography>
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC ONE.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC TWO.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        {" "}
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC THREE.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        {" "}
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC FOUR.....
-                        </Button>
-                      </Typography>
-                      <br />
-                      <Typography>
-                        <Button
-                          variant="contained"
-                          color="primary"
-                          onClick={() => setState("Womenswear")}
-                        >
-                          JOIN TOPIC FIVE.....
-                        </Button>
-                      </Typography>
-                    </CardContent>
-                    <CardActions></CardActions>
+                    <CardMedia
+                      className={classes.cardMedia}
+                      image="https://img.aplaceformom.com/main/uploads/2014/01/cutting-edge-technology-for-seniors.jpg"
+                    />
                   </Card>
                 </Grid>
               </Grid>

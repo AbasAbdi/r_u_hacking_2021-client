@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import User from "./User";
+import User from "./Lobby";
 
 function App() {
   return (
