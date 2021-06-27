@@ -11,6 +11,7 @@ import React from "react";
 import Screen1 from "./Screen1";
 import axios from "axios";
 import { useAuth0 } from "@auth0/auth0-react";
+import "./App.css";
 
 // Declaring the useStyles react hook.
 const useStyles = makeStyles((theme) => ({
@@ -97,7 +98,6 @@ function Nav() {
     <div id="nav">
       <React.Fragment>
         <CssBaseline />
-        {fetchUserRecords()}
         <AppBar
           position="static"
           color="default"
@@ -113,8 +113,8 @@ function Nav() {
             >
               {
                 <img
+                  className="logo"
                   src="https://i.ibb.co/c2WWvby/logo.png"
-                  className="App-logo"
                   alt="logo"
                 />
               }
